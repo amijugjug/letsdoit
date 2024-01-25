@@ -1,5 +1,4 @@
 import { useSelector } from "react-redux";
-import todoReducers from "../state/slices/TodoSlice";
 
 export const useTodoSelectors = () => {
   const todoObj = useSelector((state) => state.todoReducers.todoObj);

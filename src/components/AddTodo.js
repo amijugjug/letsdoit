@@ -3,7 +3,7 @@ import TodoCard from "./TodoCard";
 import { useDispatch } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
 import { addTodo, setEditReq } from "../state/slices/TodoSlice";
-import { useTodoSelectors } from "../selectors/todoSlice.selector";
+import { useTodoSelectors } from "../state/selectors/TodoSlice.selector";
 
 const AddTodo = () => {
   const dispatch = useDispatch();

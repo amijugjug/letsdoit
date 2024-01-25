@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import TodoCard from "./TodoCard";
-import { useTodoSelectors } from "../selectors/todoSlice.selector";
+import { useTodoSelectors } from "../state/selectors/TodoSlice.selector";
 
 const TodoContainer = () => {
   const { todoObj, totalDoneMarked } = useTodoSelectors();
